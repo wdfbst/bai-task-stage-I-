@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>margin负值法实现三栏布局,自适应栏要有两个div，一个外面的是固定的</title>
+<style type="text/css">
+body{margin:0;padding:0;}
+.content{border:1px solid #000;}
+
+
+.center{
+	float:left;
+	width:100%;
+	}
+	
+.center_inner{
+	margin:0 230px;
+	height:200px;
+	background:#F00;}
+.left{
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:-100%;
+	background-color:blue;}	
+.right{
+	width:230px;
+	height:200px;
+	float:left;
+	margin-left:-230px;
+	background-color:#0F3;}
+	
+
+</style>
+</head>
+
+<body>
+
+<div class="content">
+<!----------float加margin负边距，先写自适应栏，并给自适应栏加父元素----------->
+<div class="center">
+	<div class="center_inner">hello</div>
+</div>
+
+<!-----------再写其余栏---------------------->
+<div class="left">
+	pipipipipipipipipi
+</div>
+
+<div class="right">
+	wdwdwdwdwdwdwd
+</div>
+
+</div>
+</body>
+</html>

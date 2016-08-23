@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing:border-box;}
+body{margin:0;}
+.container{
+	display:block;
+	width:100%;
+	padding:20px;
+	}
+[class*='col-']{
+/*	margin:20px;/*在这里添加会影响后面宽度比例的计算，容器本身的宽度会包含外边距，可以给大容器添加padding值*/
+*/	padding:10px;
+	float:left;
+	}
+.content{
+	background-color:#eee;
+	border:1px solid #999;
+	height:48px;
+	}
+@media only screen and (min-width: 769px) {
+	.col-l-1{width:8.33%;}
+	.col-l-2{width:16.66%;}
+	.col-l-3{width:25%; }
+	.col-l-4{width:33.33%; }
+	.col-l-6{width:50%;}
+	}
+@media only screen and (max-width: 768px){
+
+	.col-s-2{width:16.66%;}
+	.col-s-3{width:25%;}
+	.col-s-6{width:50%; }
+	.col-s-8{width:66.66%; }
+	.col-s-12{width:100%;}
+}

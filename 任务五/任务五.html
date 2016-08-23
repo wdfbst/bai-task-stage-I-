@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>导航内容栏</title>
+<style type="text/css">
+body{
+	background-color: rgb(222,222,222);
+	font-family: "Microsoft YaHei UI", sans-serif;
+	margin: 0px;
+	overflow: auto;
+}
+main{
+	overflow: auto;
+}
+#content{
+	float: left;
+	width: 65%;
+}
+aside{
+	width: 25%;
+	background-color: white;
+	margin: 20px;
+	padding: 15px;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	float: right;
+}
+article{
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+}
+article p{
+	text-indent: 2em;
+	line-height: 150%;
+}
+article dd{
+	margin: 10px;
+}
+nav ul li{
+	float: left;
+	margin: 10px;
+}
+nav ul{
+	float: right;
+}
+li a{
+	color: white;
+	text-decoration: none;
+}
+li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(51,51,51);
+}
+h3{
+	color: rgb(111,111,111);
+}
+.auther,time{
+	font-size: 10px;
+	color:rgb(111,111,111);
+}
+figure{
+	width: 140px;
+	border: 1px;
+	border-color: rgb(223,223,223);
+	border-style:solid;
+}
+figure img{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	width: 120px;
+	height: 100px;
+}
+figcaption{
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+	width: 100%
+}
+th{
+	background-color: rgb(51,51,51);
+	color: white;
+	text-align: left;
+	padding:3px;
+}
+td{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(203,203,203);
+	padding: 3px;
+}
+tfoot{
+	background-color: rgb(203,203,203);
+}
+aside h2{
+	padding-left: 3px;
+	border-left: 3px solid rgb(203,203,203);
+	font-size: 16px;
+}
+aside p{
+	font-size: 14px;
+}
+.tip{
+	font-size: 12px;
+	color: rgb(99,99,99);
+	margin-left: 35%;
+}
+.input_user{
+	width: 35%;
+	text-align: right;
+	float: left;
+}
+textarea{
+	width: 180px;
+	height: 80px;
+}
+#btn_post{
+	color: white;
+	padding: 15px;
+	width: 100%;
+	margin-top: 20px;
+	background-color: rgb(51, 85,208);
+	border-radius:5px;
+	border: none;
+}
+footer{
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+</style>
+</head>
+
+<body>
+	<nav>
+		<img src="0.png" alt="这是网站标识图" width="150" height="70" >
+		<ul>
+			<li><a href="#">导航链接一</a></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><a href="#">导航链接三</a></li>
+			<li><a href="#">导航链接四</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div id="content">
+			<article>
+			 	<header>
+			 		<h2>文章一级标题</h2>
+					<h3>文章二级标题</h3>
+			 	</header>
+			 	<div><span class="auther">文章作者</span>&nbsp;<time>文章发表时间</time></div>
+				<p>
+				   	这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长
+				   	的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有一个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+				</p>
+				<img src="http://img02.tooopen.com/images/20160226/tooopen_sy_157121321492.jpg" height="250" width="300" alt="这是一幅图片">
+				<p>
+					这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有一个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+				</p>
+			</article>
+			<article>
+				<header>
+		            <h2>文章一级标题</h2>
+		            <h3>文章二级标题</h3>
+		        </header>
+		        <div><span class="auther">文章作者</span>&nbsp;<time>文章发表时间</time></div>
+		        <p>
+				   	这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长
+				   	的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有一个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+				</p>
+				<img src="http://img02.tooopen.com/images/20160226/tooopen_sy_157121321492.jpg" height="250" width="300" alt="这是一幅图片">
+				<dl>
+					<dd>列表项目一</dd>
+					<dd>列表项目二</dd>
+					<dd>列表项目三</dd>
+				</dl>
+				</article>
+				<article>
+					<section>
+						<h2>图片</h2>
+						<ul>
+                            <li>
+                                <p>好看的图片</p>
+                                <img src="0.png" alt="图标" />
+                            </li>
+                                <li>
+                                <p>好看的图片</p>
+                                <img src="0.png" alt="图标" />
+                            </li>
+                                <li>
+                                <p>好看的图片</p>
+                                <img src="0.png" alt="图标" />
+                            </li>
+                            </ul>
+    
+  
+			</article>
+			<article>
+				<header>
+					<h2>最后一篇文章一级标题</h2>
+					<h3>文章二级标题</h3>
+				</header>
+				<div><span class="auther">文章作者</span>&nbsp;<time>文章发表时间</time></div>
+				<ol>
+					<li>排名1</li>
+					<li>排名2</li>
+					<li>排名3</li>
+				</ol>
+				<p>下面是一个表格，给表格加了一个border="1"好让你看出来是一个表格</p>
+				<div>
+					<table>
+						<thead>
+							<tr>
+								<th>表头</th>
+								<th>表头</th>
+								<th>表头</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>表内容单元格</td>
+								<td>表内容单元格</td>
+								<td><a href="#">操作</a></td>
+							</tr>
+							<tr>
+								<td>表内容单元格</td>
+								<td>表内容单元格</td>
+								<td><a href="#">操作</a></td>
+							</tr>
+							<tr>
+								<td>表内容单元格</td>
+								<td>表内容单元格</td>
+								<td><a href="#">操作</a></td>
+							</tr>
+							<tr>
+								<td>表内容单元格</td>
+								<td>表内容单元格</td>
+								<td><a href="#">操作</a></td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td>总计</td>
+								<td colspan="2">1000</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</article>	
+		</div>
+		<aside>			
+			<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+			<form>
+				<p>
+					<lable class="input_user" for="email_addr">请输入邮箱地址&nbsp;</lable>
+					<input id="email_addr" type="email" placeholder="这是一个文本输入框">
+				</p>
+				<p class="tip">邮箱地址请按照格式输入</p>
+				<p>
+					<lable class="input_user" for="password_user">请输入密码&nbsp;</lable>
+					<input id="password_user" type="password" placeholder="这是一个文本输入框" pattern="[A-Za-z]{6,16}">
+				</p>
+				<p>
+					<lable class="input_user" for="password_user2">请重复输入密码&nbsp;</lable>
+					<input id="password_user2" type="password" placeholder="这是一个文本输入框" pattern="[A-Za-z]{6,16}">
+				</p>
+				<p class="tip">密码请为6-16位英文数字</p>
+				<p>
+					<span class="input_user">性别&nbsp;</span>
+					<input name="sex" checked="checked" type="radio" value="male" id="male"><label for="male">男</label>
+					<input name="sex" type="radio" value="female" id="female"><label for="female">女</label>
+				</p>
+				<p>
+					<span class="input_user">城市&nbsp;</span>
+					<select>
+						<option value="beijing">北京</option>
+						<option value="shanghai">上海</option>
+						<option value="guangzhou">广州</option>
+					</select>
+				</p>
+				<p>
+					<span class="input_user">爱好&nbsp;</span>
+					<input name="aihao" type="checkbox" id="yundong"><label for="yundong">运动</label>
+					<input name="aihao" type="checkbox" id="yishu"><label for="yishu">艺术</label>
+					<input name="aihao" type="checkbox" id="kexue"><label for="kexue">科学</label>
+				</p>
+				<p>
+					<span class="input_user">个人描述&nbsp;</span>
+					<textarea >这是一个多行输入框，输入您的个人描述</textarea>
+					</br>
+					<input id="btn_post" type="submit" value="确认提交">
+				</p>
+			</form>
+		</aside>
+	</main>
+	<footer>版权所有&copy;</footer>
+</body>
+</html>

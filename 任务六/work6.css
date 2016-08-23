@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+body{border:0;margin:0;padding:0;font-family: "Microsoft Yahei"; font-size:12px;}
+
+.box{
+	margin:0 auto;
+	padding:0 44px;
+	width:892px;
+	height:1386px;
+	background-color:#FFF;
+	}
+
+.logo{
+	width:100px;
+	height:60px;
+	background-color:#D55D5C;
+	position:relative;
+	}
+.logo_name{
+	color:#FFF;
+	font:12px SimHei;
+	position:absolute;
+	bottom:0;
+	left:8px;
+	
+	}
+.inf{
+	position:relative;
+	border-bottom:2px solid #938E8B;
+	}
+.date{
+	color:#D75D5C;
+	position:absolute;
+	top:40px;
+	right:0px;
+	bottom:0;
+	text-align:right;
+	}
+.nav_line{
+	color:#000;
+	}
+.content{
+	margin-top:35px;
+	}	
+.top{
+	width:892px;
+	height:300px;
+	
+	
+	}
+.top_left{
+	width:641px;
+	height:300px;
+	position:relative;
+	margin-right:251px;
+	}
+.top_left img{
+	width:641px;height:300px;
+	position:absolute;
+	}
+.green,.red{
+	width:189px;
+	height:300px;
+	opacity:0.5; 	/*透明度设置*/
+	z-index:100px;
+	}
+.green{
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:#26503C;
+	}
+.red{
+	background-color:#D4ACAC;
+	position:absolute;
+	top:0;
+	right:0;
+	}
+.top_right	{
+	float:right;
+	width:203px;
+	height:300px;
+	border-top:2px solid #CD8092;
+	
+	}
+.top_right p{margin:0;padding:0;font-size:12px;}
+.top_right > p:first-child,.top_right > p:nth-child(2){/*后代元素表示 */	
+	font-size:24px;
+	font-variant:small-caps;/*设置为小型大写字母字体*/
+	color:#050100;
+	height:25px;
+	line-height:25px;
+	text-decoration:underline;
+	} 
+.top_right > p:first-child{
+	margin-top:15px;
+	}  
+.top_right >p:nth-child(3),.top_right > p:nth-child(4){
+	 margin-top: 4px; 
+     font-size: 14px; 
+     font-style: italic; 
+     font-family: KaiTi; 
+     color: #676767; 
+     line-height: 15px; 
+	}
+	/*	
+.top_right > p:nth-child(4){
+	
+	font-size:15px;
+	font-style:italic;
+	margin-bottom:20px;
+	color:#75B96C;
+	height:120px;
+	/*position:relative;*/
+	/*margin-left:-24px;
+    }
+	*/
+.top_right > p:nth-child(5){
+	color:#CB8192;
+	font-size:40px;
+	width:77px;
+	height:71px;
+	float:left;
+	}
+.num{
+	 width: 193px; 
+     height: 60px; 
+     margin-left: 90px; 
+     padding-top: 11px; 
+     padding-left: 10px; 
+     color:#906; 
+     font-size: 15px; 
+	}
+.num p span{ 
+     font-size: 18px; 
+     color: #cc8091; 
+     display: block; 
+     margin-bottom: -8px; 
+ } 
+.top_right p:nth-child(6){	margin-bottom:-40px;}	/*css怎么 和左边的对齐？*/
+	
+.middle{
+	margin-top:35px;
+	margin-bottom:60px;
+	}	
+.middle div{
+	margin:0;
+	padding:0;
+	width:233px;
+	margin-right:25px;
+	float:left;
+	}
+	
+.middle h3{
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:underline;
+	}	
+.mid_left h3{
+	color:#9CC0A6;
+	}	
+.mid_mid  h3{color:#D5A260;}	
+.mid_right  h3{color:#D699A0;}	
+.mid_left p,.mid_mid p,.mid_right p{
+	font-size:12px;
+	line-height:16px;
+	letter-spacing:1px;
+	}	
+.mid_mid p,.mid_right p{
+	opacity:0.9;
+	color:#A2A2A2;
+	}
+.mid_right p{
+	margin:8px 0 8px 0;
+	line-height:18px;
+	}	
+.middle span{
+	font-style:italic;
+	color:#90F;
+	}	
+/*--------------------------------------------------------------*/	
+	
+.bottom{
+	margin:0;
+	padding:0;
+	position:relative;
+	padding-bottom:40px;
+/*	border-bottom:2px solid #938E8B;
+*/	
+	}
+.bo_left{
+	margin:0;
+	padding:0; 
+	width:415px;
+	float:left;
+	}
+.left_up{
+	font-weight:bold;
+	font-family:SimHei;
+	color: #11456b; 
+    border-bottom: 2px solid #11456b; 
+	}
+.left_up p{
+	margin:0;
+	padding:0;
+	font-size:42px;
+	}
+.left_up p:nth-child(2){
+	line-height:16px;
+	}
+.left_up p:last-child{
+	font-size:33px;
+	padding:16px 0;
+	}
+#the{ 
+     font-size: 72px; 
+     font-style: italic; 
+     color: #f5e327; 
+	}
+.left_down{
+	margin-top:20px;
+	}
+.left_down p,.left_down span{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	line-height:16px;
+	}
+#front{
+	float:left;
+	font-size:70px;
+	color: #f5e327;  
+     padding: 0 20px 0 0; 
+     line-height: 70px; 
+	}
+.left_down p img{
+	float:right;
+	margin:0;
+	padding:0;
+	margin:15px 0 15px 15px;
+    width: 167px; 
+    height: 288px; 
+	}
+.indentp{text-indent:2em;}
+/*两栏下的第二栏*/
+.bottom .bo_right{
+	position:absolute;
+	float:right;
+	top:260px;
+	right:0;
+	margin:0;
+	padding:0;
+	width:458px;
+	height:618px;
+	}
+.right_up{
+	position:relative;
+	width:458px;
+	height:275px;
+	}
+.right_up img{
+	width:458px;
+	height:275px;
+	}
+.qianru_pic{
+	position:absolute;
+	bottom:0;
+	height:61px;
+	width:458px;
+	background-color:#78777F;
+	
+	}
+.qianru_pic p{
+	margin:7px 30px;
+	padding:10px 12px;
+	}
+#text-1{
+	font-size:25px;
+	color:#FFFFFF;
+	}
+#text-2{
+	font-size:15px;
+	font-style:italic;
+	color:#679E64;
+	}
+.after-text{ 
+     position: absolute; 
+     bottom: 0; 
+     width: 459px; 
+     height: 318px; 
+     background-color: #EEEED6; 
+ } 
+ .after-text div{ 
+     margin-top: 10px; 
+     margin-left: 30px; 
+     padding: 0; 
+ } 
+ .after-text div p{ 
+     background: url(img/icon.png) no-repeat 0 50%; 
+     padding-left: 15px; 
+     font-size: 13px; 
+     font-family: SimSun; 
+     color: #5a5b5b; 
+     text-align: left; 
+     line-height: 12px; 
+ } 
+ .after-text div p span{ 
+     font-size: 13px; 
+     font-style: italic; 
+     text-align: right; 
+ } 
+  
+ .after-red{ 
+     position: absolute; 
+     bottom: 0; 
+     left: 0; 
+     width: 240px; 
+     height: 75px; 
+     padding-top: 37px; 
+     padding-bottom: 37px; 
+     padding: 37px 10px 37px 10px; 
+     background-color: #D55D5C; 
+ } 
+ .after-red div{ 
+     float: left; 
+     margin: 0; 
+     padding: 0; 
+     height: 86px; 
+     border-right: 2px solid #ffffff; 
+ } 
+ .after-red span.zero{ 
+     position: relative; 
+     top: -30px; 
+     font-size: 110px; 
+     color: #ffffff; 
+ } 
+ .after-red p{ 
+     margin: 0; 
+     padding: 0; 
+     font-family: SimHei; 
+     color: #ffffff; 
+     float: left; 
+     padding-left: 5px; 
+ } 
+ .after-red p.one{ 
+     font-size: 21px; 
+     font-style: italic; 
+     line-height: 24px; 
+ } 
+ .after-red p.hello{ 
+     font-size: 12px; 
+ } 
+ .after-quote{ 
+     position: absolute; 
+     margin: 0 0 30px 0; 
+     padding: 15px 15px 0 15px; 
+     bottom: 0; 
+     right: 0; 
+     width: 169px; 
+     height: 115px; 
+     font-family: SimHei; 
+ } 
+ .after-quote p{ 
+     margin: 0; 
+     padding: 0; 
+     font-size: 14px; 
+     font-style: italic; 
+     color: #5a5b5b; 
+     line-height: 16px; 
+ } 
+ .after-quote p:first-child{ 
+     text-indent: 3em; 
+ } 
+ .after-quote #quote1, #quote2{ 
+     font-size: 72px; 
+     color: #d45d5c; 
+     position: absolute; /*给引号绝对定位*/
+ } 
+ .after-quote #quote1{ 
+     top: -2px; 
+     left: 10px; 
+ } 
+ .after-quote #quote2{ 
+     bottom: -45px; 
+     right: 10px; 
+ } 
+.footer{
+	text-align:right;
+	color:#E5A9A9;
+	position:absolute;
+	bottom:-500px;
+	}
+
+
